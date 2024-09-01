@@ -3,8 +3,7 @@ import { NotificationManager } from 'react-notifications';
 
 const baseUrl = "https://todo-app-backend-7muy.onrender.com"
 
-const displayNotification = (message, type) => {
-  const notificationClass = `${type}-notification`;  
+const displayNotification = (message, type) => { 
   NotificationManager[type](message, '', 6000);
 };
 
