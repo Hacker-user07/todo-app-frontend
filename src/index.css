@@ -93,28 +93,28 @@ input{
 }
 
 /* Style the success notification */
-.success-notification {
+.success {
   background-color: #7bc709;
   border-color: #8bc34a;
   color: #000000;
 }
 
 /* Style the error notification */
-.error-notification {
+.error {
   background-color: #df730e;
   border-color: #a94442;
   color: #000000;
 }
 
 /* Style the info notification */
-.info-notification {
+.info {
   background-color: #d9edf7;
   border-color: #46b8da;
   color: #000000;
 }
 
 /* Style the warning notification */
-.warning-notification {
+.warning {
   background-color: #ef0606da;
   border-color: #eea236;
   color: #060606;
